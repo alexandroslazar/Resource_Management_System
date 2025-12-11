@@ -1,0 +1,442 @@
+# EfficienCity RMS - Sprint Log
+
+## Project Information
+- **Project Name:** Κοινή Διαχείριση Πόρων σε Επίπεδο Δήμων και Πόλεων με Νέες Τεχνολογίες - EfficienCity RMS
+- **Team Members:** 
+  - Άγγελος Φίκιας - iis23006 [Software Architect] - af
+  - Αλέξανδρος Λαζαρίδης - iis23177 [Design Lead] - al
+  - Βάιος Παλιούρας - iis23188 [Project Manager] - vp
+  - Ιωάννης Τσιρκινίδης - iis23172 [Tech Research Lead] - gi
+- **Course:** Ψηφιακή Καινοτομία και Συστήματα Μεταφοράς Τεχνολογίας
+- **Professor:** Κωνσταντίνος Φούσκας
+- **Methodology:** Agile with Jira and Notion
+
+---
+
+## Sprint 1 - Project Setup (1.10 - 14.10)
+
+### Meeting Date: 1.10
+**Topic:** Set up Contract
+
+#### Goals for This Sprint
+- [ ] Establish team contract and collaboration rules
+- [ ] Define team structure and individual roles
+- [ ] Identify the core problem
+- [ ] Propose initial solution approach
+
+#### What We Did
+- **af, al, vp, gi:** Established team contract and communication protocols
+- **vp:** Created Jira workspace and initial project structure
+- **Team:** Defined individual roles and responsibilities
+
+### Meeting Date: 7.10
+**Topic:** Problem Definition & Solution
+
+#### Completed Tasks
+- [x] Δομή ομάδας και ρόλοι
+- [x] Το πρόβλημα και η προτεινόμενη λύση
+
+#### What We Did
+- **vp:** Documented team structure and roles
+- **Team:** Analyzed the resource management problem in Greek municipalities
+- **af, gi:** Researched existing solutions and gaps
+- **Team:** Proposed EfficienCity RMS as comprehensive solution
+
+#### Decisions Made
+- Decided to focus on inter-municipality resource sharing
+- Agreed on microservices architecture approach
+- Confirmed use of blockchain for transparency
+
+### Meeting Date: 14.10
+**Topic:** Requirements Gathering
+
+#### Completed Tasks
+- [x] Ορισμός χρηστών στόχου
+- [x] Χαρτογράφηση ενδιαφερομένων και των στόχων τους
+- [x] Συλλογή απαιτήσεων
+
+#### What We Did
+- **al:** Defined target user groups (municipalities, citizens, admins)
+- **vp, gi:** Created stakeholder mapping and objectives table
+- **Team:** Gathered functional and non-functional requirements
+- **af:** Prioritized requirements using MoSCoW method
+
+#### Challenges & Blockers
+- Needed more clarity on GDPR compliance requirements
+- Required additional research on blockchain implementation
+
+#### Notes
+- Focus on user needs for municipalities and transparency for citizens
+- Security and scalability are critical non-functional requirements
+
+---
+
+## Sprint 2 - Analysis & Diagrams (21.10 - 4.11)
+
+### Meeting Date: 21.10
+**Topic:** Use Cases & Constraints
+
+#### Completed Tasks
+- [x] Use Case Diagram - Visual Paradigm
+- [x] Καταγραφή περιορισμών
+- [x] Οικονομική Βιωσιμότητα
+
+#### What We Did
+- **al:** Created comprehensive Use Case Diagram in Visual Paradigm
+- **gi:** Documented regulatory, operational, and technical constraints
+- **vp, af:** Analyzed economic viability and ROI projections
+
+#### Decisions Made
+- Confirmed GDPR compliance as mandatory requirement
+- Decided to host data within EU using Azure
+- Established that cost reduction is primary economic benefit
+
+### Meeting Date: 28.10
+**Topic:** Current State Analysis
+
+#### Completed Tasks
+- [x] Ανάλυση Υφιστάμενης Κατάστασης & Διαδικασιών
+- [x] Καταγραφή τρέχουσας ροής - BPMN
+- [x] Root Cause Analysis
+- [x] SWOT Analysis
+
+#### What We Did
+- **af, al:** Modeled current ("as-is") processes using BPMN
+- **Team:** Conducted interviews with municipal employees
+- **gi:** Performed root cause analysis identifying key pain points
+- **vp:** Led SWOT analysis session
+
+#### Challenges & Blockers
+- Current processes are poorly documented and inconsistent
+- Manual workflows lead to errors and lack of traceability
+
+#### Notes
+- Current state relies on outdated Excel sheets and verbal agreements
+- Major opportunity to digitize and standardize processes
+
+### Meeting Date: 4.11
+**Topic:** Future State Design
+
+#### Completed Tasks
+- [x] Σχεδίαση Στόχου ("to-be") & Μετρικές Επιτυχίας
+- [x] Ορισμός στόχων SMART
+- [x] Μετρικές - KPIs
+- [x] Κριτήρια Αποδοχής
+
+#### What We Did
+- **Team:** Designed target ("to-be") state with improved workflows
+- **vp:** Defined SMART goals for each major objective
+- **gi:** Established KPIs for measuring success
+- **af:** Created acceptance criteria for system validation
+
+#### Decisions Made
+- Target uptime: ≥ 99%
+- Resource utilization goal: ≥ 90%
+- Request completion time: < 3 days
+
+---
+
+## Sprint 3 - Mid-Project Review (11.11 - 25.11)
+
+### Meeting Date: 11.11
+**Topic:** Reassessment & PPT Preparation
+
+#### What We Did
+- **Team:** Reviewed progress against original timeline
+- **vp:** Organized all documentation for presentation
+- **al:** Started creating presentation slides
+- **Team:** Identified areas needing more work
+
+#### Challenges & Blockers
+- Some technical specifications still incomplete
+- Need more detail on AI/ML components
+
+### Meeting Date: 18.11
+**Topic:** Mid-Project Presentation
+
+#### What We Did
+- **Team:** Presented project progress to professor and class
+- **All:** Received feedback on analysis and proposed solution
+
+#### Feedback Received
+- Positive feedback on comprehensive requirements analysis
+- Suggestion to clarify AI analytics implementation
+- Recommendation to add more detail on security measures
+
+#### Next Sprint Goals
+- [ ] Incorporate presentation feedback
+- [ ] Complete technical architecture details
+- [ ] Begin UX design work
+
+---
+
+## Sprint 4 - Technical Architecture (25.11 - 9.12)
+
+### Meeting Date: 25.11 & 26.11
+**Topic:** System Architecture Design
+
+#### Completed Tasks
+- [x] Αρχιτεκτονική & Τεχνικές Προδιαγραφές
+- [x] Components Εφαρμογής
+- [x] Frontend Επίπεδο
+- [x] Backend Υπηρεσίες
+- [x] Pipeline Δεδομένων και Υποδομή Βάσεων
+- [x] Επίπεδο Ανάλυσης - Big Data και AI
+- [x] Blockchain - Επίπεδο Διαφάνειας Συναλλαγών
+- [x] Υποδομή Cloud
+- [x] Τεχνολογική Αρχιτεκτονική
+
+#### What We Did
+- **af:** Designed microservices architecture with event-driven communication
+- **gi:** Specified tech stack for each layer (Angular, Spring Boot, PostgreSQL, ClickHouse, Kafka)
+- **af:** Created system architecture diagram
+- **gi:** Documented AI/ML analytics approach using Python and Scikit-learn
+- **Team:** Defined Azure cloud infrastructure with AKS
+- **af:** Specified CI/CD pipeline using GitHub Actions
+
+#### Decisions Made
+- Confirmed microservices with Database-per-Service pattern
+- Selected Kafka for event-driven messaging
+- Chose Redis for caching layer
+- Decided on Prometheus + Grafana for monitoring
+
+### Meeting Date: 2.12
+**Topic:** Data Architecture
+
+#### Completed Tasks
+- [x] Πίνακας Προδιαγραφών
+- [x] Data Schema
+- [x] PostgreSQL Schema
+- [x] ClickHouse Schema
+- [x] Kafka Topics
+- [x] Οντότητες Blockchain
+
+#### What We Did
+- **af:** Created comprehensive specifications table
+- **gi:** Designed PostgreSQL schema for transactional data
+- **gi:** Designed ClickHouse schema for analytics
+- **af:** Defined Kafka topics for event streaming
+- **gi:** Specified blockchain entities for transaction logging
+
+#### Notes
+- PostgreSQL handles operational data (users, resources, requests)
+- ClickHouse stores time-series data for analytics
+- Kafka enables real-time event processing between services
+
+---
+
+## Sprint 5 - UX Design & Testing Strategy (9.12 - 23.12)
+
+### Meeting Date: 9.12
+**Topic:** User Experience Design
+
+#### Completed Tasks
+- [x] UX Σχεδίαση & Mockups
+- [x] User Flow Diagrams
+- [x] Mockup Screens
+- [x] Έλεγχοι
+- [x] Κατηγορίες Δοκιμών
+- [x] Πίνακας Ιχνηλασιμότητας
+- [x] Δοκιμές & Αποδοχή (User Acceptance Testing - UAT)
+
+#### What We Did
+- **al:** Created detailed user flow diagrams for all user types
+- **al:** Designed mockup screens for municipality dashboard, citizen portal, and admin console
+- **af:** Defined testing categories (unit, integration, E2E, performance, security)
+- **gi:** Created traceability matrix linking requirements to tests
+- **vp:** Planned UAT approach with municipal employees and citizens
+
+#### Decisions Made
+- Prioritize mobile-first responsive design
+- Ensure WCAG 2.1 AA accessibility compliance
+- Use Angular Material for consistent UI components
+
+#### Notes
+- Mockups received positive initial feedback from team
+- Need to validate with actual users during pilot phase
+
+### Meeting Date: 16.12
+**Topic:** Pilot Planning & Reassessment
+
+#### Completed Tasks
+- [x] Σχεδιασμός Πιλοτικού
+- [ ] Reassessment of timeline and deliverables
+
+#### What We Did
+- **vp:** Designed pilot program for initial municipality
+- **Team:** Reassessed project timeline for implementation phase
+- **vp:** Identified KPIs to track during pilot
+
+#### Challenges & Blockers
+- Holiday season may slow down implementation work
+- Need to finalize municipality partner for pilot
+
+---
+
+## Sprint 6 - Implementation Phase (23.12 - 13.1)
+
+### Meeting Date: 23.12
+**Topic:** PoC Development - Phase 1
+
+#### Completed Tasks
+- [x] Ενδεικτική Υλοποίηση - Proof of Concept (Backend setup)
+- [x] PostgreSQL database schema implementation
+- [x] Spring Boot API skeleton
+
+#### What We Did
+- **af:** Set up PostgreSQL database with initial schema
+- **af, gi:** Created Spring Boot backend with basic CRUD endpoints
+- **gi:** Implemented RBAC security with Spring Security
+- **Team:** Established GitHub repository structure
+
+### Meeting Date: 30.12
+**Topic:** PoC Development - Phase 2
+
+#### Completed Tasks
+- [x] Backend API completion
+- [x] Redis caching integration
+- [x] Blockchain logging service
+
+#### What We Did
+- **af:** Completed Resource and Request API controllers
+- **gi:** Integrated Redis for caching /resources endpoint
+- **gi:** Implemented basic blockchain logging with SHA-256
+
+### Meeting Date: 6.1
+**Topic:** PoC Development - Phase 3
+
+#### Completed Tasks
+- [x] Frontend development (Angular)
+- [x] Docker containerization
+
+#### What We Did
+- **al:** Created Angular frontend application
+- **al:** Implemented dashboard components for municipalities
+- **af:** Dockerized backend and frontend services
+- **Team:** Tested integration between frontend and backend
+
+### Meeting Date: 13.1
+**Topic:** PoC Finalization
+
+#### Completed Tasks
+- [x] Azure deployment
+- [x] Unit testing
+- [x] Documentation
+- [x] Συμπεράσματα
+
+#### What We Did
+- **gi:** Deployed backend to Azure App Service
+- **al:** Deployed frontend to Azure Static Web Apps
+- **af:** Wrote unit tests for critical functionality
+- **vp:** Created comprehensive README with setup instructions
+- **Team:** Recorded demo video for YouTube
+- **vp:** Wrote conclusions section summarizing project outcomes
+
+#### Challenges & Blockers
+- Some Azure configuration issues resolved
+- Time constraints limited advanced AI features in PoC
+
+---
+
+## Sprint 7 - Final Presentation (14.1 - 24.1)
+
+### Meeting Date: 14.1
+**Topic:** Summary & Presentation Preparation
+
+#### Completed Tasks
+- [x] Περίληψη
+- [x] Final presentation slides
+
+#### What We Did
+- **vp:** Wrote executive summary highlighting key achievements
+- **Team:** Prepared comprehensive presentation covering entire project
+- **al:** Created visual aids and demo screenshots
+- **Team:** Presented to professor and received feedback
+
+#### Feedback Received
+- Excellent comprehensive analysis and documentation
+- Strong technical architecture design
+- Well-thought-out UX with detailed mockups
+- Successfully demonstrated PoC functionality
+
+### Meeting Date: 20.1
+**Topic:** Final Fixes
+
+#### What We Did
+- **Team:** Incorporated final presentation feedback
+- **vp:** Polished documentation formatting
+- **af:** Fixed minor bugs in PoC
+- **Team:** Prepared final deliverables
+
+### Meeting Date: 24.1
+**Topic:** Project Completion - "World"
+
+#### Final Deliverables
+- ✅ Complete analysis document (35 pages)
+- ✅ Working Proof of Concept (GitHub)
+- ✅ Demo video (YouTube)
+- ✅ Comprehensive technical documentation
+- ✅ UX mockups and user flows
+- ✅ Testing strategy and UAT plan
+- ✅ Pilot implementation roadmap
+
+#### Team Reflections
+- **af:** Great experience architecting a complex microservices system
+- **al:** Learned a lot about UX design for government services
+- **vp:** Improved project management skills using Agile methodology
+- **gi:** Gained deep knowledge of cloud infrastructure and modern tech stack
+
+---
+
+## Project Retrospective
+
+### What Went Well
+- Strong team collaboration and clear role definition
+- Comprehensive requirements analysis saved time later
+- Agile approach allowed flexibility to incorporate feedback
+- Successfully delivered working PoC despite time constraints
+- Clear documentation throughout the project
+
+### What Could Be Improved
+- Earlier start on implementation phase
+- More frequent check-ins during holiday period
+- Could have conducted more user interviews for validation
+- AI/ML features could be more fully developed
+
+### Lessons Learned
+- Importance of thorough upfront analysis before implementation
+- Value of continuous stakeholder feedback
+- Microservices architecture requires careful planning
+- Documentation is as important as code
+- Proof of concept helps validate architectural decisions
+
+### Final Outcomes
+- **Grade:** [To be determined]
+- **GitHub Repository:** https://github.com/AngelosFikias0/Resource_Management_System
+- **YouTube Demo:** [Link to be added]
+- **Notion Workspace:** https://www.notion.so/2bd9c27e8f1180909629d6343b3cd4b7
+
+### Future Recommendations
+If this project were to continue:
+- Complete full AI/ML predictive analytics implementation
+- Conduct real pilot with partner municipality
+- Expand to include more resource types
+- Integrate with existing municipal systems
+- Add mobile native applications
+- Implement advanced blockchain features with smart contracts
+
+---
+
+## Appendix: Sprint Timeline Summary
+
+| Sprint | Dates | Focus | Key Deliverables |
+|--------|-------|-------|------------------|
+| 1 | 1.10 - 14.10 | Setup & Requirements | Team contract, problem definition, user requirements |
+| 2 | 21.10 - 4.11 | Analysis | Use cases, BPMN, SWOT, SMART goals, KPIs |
+| 3 | 11.11 - 25.11 | Review | Mid-project presentation, feedback incorporation |
+| 4 | 25.11 - 9.12 | Architecture | Technical specs, data schemas, architecture diagrams |
+| 5 | 9.12 - 23.12 | UX & Testing | User flows, mockups, testing strategy, pilot plan |
+| 6 | 23.12 - 13.1 | Implementation | PoC development, deployment, documentation |
+| 7 | 14.1 - 24.1 | Finalization | Final presentation, fixes, project completion |
+
+**Total Duration:** ~15 weeks (October 2024 - January 2025)
