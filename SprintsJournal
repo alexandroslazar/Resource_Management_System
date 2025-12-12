@@ -82,9 +82,9 @@
 - [x] Οικονομική Βιωσιμότητα
 
 #### What We Did
-- **al:** Created comprehensive Use Case Diagram in Visual Paradigm
+- **vp,af:** Created comprehensive Use Case Diagram in Visual Paradigm
 - **gi:** Documented regulatory, operational, and technical constraints
-- **vp, af:** Analyzed economic viability and ROI projections
+- **al:** Analyzed economic viability and ROI projections
 
 #### Decisions Made
 - Confirmed GDPR compliance as mandatory requirement
@@ -187,12 +187,10 @@
 - [x] Τεχνολογική Αρχιτεκτονική
 
 #### What We Did
-- **af:** Designed microservices architecture with event-driven communication
-- **gi:** Specified tech stack for each layer (Angular, Spring Boot, PostgreSQL, ClickHouse, Kafka)
-- **af:** Created system architecture diagram
+- **af:** Designed microservices architecture with event-driven communication, Specified tech stack for each layer (Angular, Spring Boot, PostgreSQL, ClickHouse, Kafka). Created system architecture diagram
 - **gi:** Documented AI/ML analytics approach using Python and Scikit-learn
-- **Team:** Defined Azure cloud infrastructure with AKS
-- **af:** Specified CI/CD pipeline using GitHub Actions
+- **vp:** Focused on blockchain
+- **Team:** Defined the overall system tech stack and architecture
 
 #### Decisions Made
 - Confirmed microservices with Database-per-Service pattern
@@ -212,11 +210,11 @@
 - [x] Οντότητες Blockchain
 
 #### What We Did
-- **af:** Created comprehensive specifications table
-- **gi:** Designed PostgreSQL schema for transactional data
-- **gi:** Designed ClickHouse schema for analytics
+- **al:** Created comprehensive specifications table
+- **af:** Designed PostgreSQL schema for transactional data
+- **af:** Designed ClickHouse schema for analytics
 - **af:** Defined Kafka topics for event streaming
-- **gi:** Specified blockchain entities for transaction logging
+- **vp, gi:** Specified blockchain entities for transaction logging
 
 #### Notes
 - PostgreSQL handles operational data (users, resources, requests)
@@ -240,11 +238,11 @@
 - [x] Δοκιμές & Αποδοχή (User Acceptance Testing - UAT)
 
 #### What We Did
-- **al:** Created detailed user flow diagrams for all user types
+- **vp:** Created detailed user flow diagrams for all user types
 - **al:** Designed mockup screens for municipality dashboard, citizen portal, and admin console
-- **af:** Defined testing categories (unit, integration, E2E, performance, security)
+- **gi:** Defined testing categories (unit, integration, E2E, performance, security)
 - **gi:** Created traceability matrix linking requirements to tests
-- **vp:** Planned UAT approach with municipal employees and citizens
+- **af:** Planned UAT approach with municipal employees and citizens
 
 #### Decisions Made
 - Prioritize mobile-first responsive design
@@ -263,7 +261,7 @@
 - [ ] Reassessment of timeline and deliverables
 
 #### What We Did
-- **vp:** Designed pilot program for initial municipality
+- **af:** Designed pilot program for initial municipality
 - **Team:** Reassessed project timeline for implementation phase
 - **vp:** Identified KPIs to track during pilot
 
@@ -300,7 +298,7 @@
 #### What We Did
 - **af:** Completed Resource and Request API controllers
 - **gi:** Integrated Redis for caching /resources endpoint
-- **gi:** Implemented basic blockchain logging with SHA-256
+- **vp:** Implemented basic blockchain logging with SHA-256
 
 ### Meeting Date: 6.1
 **Topic:** PoC Development - Phase 3
@@ -325,10 +323,10 @@
 - [x] Συμπεράσματα
 
 #### What We Did
-- **gi:** Deployed backend to Azure App Service
+- **af:** Deployed backend to Azure App Service
 - **al:** Deployed frontend to Azure Static Web Apps
 - **af:** Wrote unit tests for critical functionality
-- **vp:** Created comprehensive README with setup instructions
+- **gi:** Created comprehensive README with setup instructions
 - **Team:** Recorded demo video for YouTube
 - **vp:** Wrote conclusions section summarizing project outcomes
 
@@ -365,7 +363,7 @@
 #### What We Did
 - **Team:** Incorporated final presentation feedback
 - **vp:** Polished documentation formatting
-- **af:** Fixed minor bugs in PoC
+- **af:** Fixed minor bugs in PoC based on feedback
 - **Team:** Prepared final deliverables
 
 ### Meeting Date: 24.1
